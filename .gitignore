@@ -1,0 +1,13 @@
+#Datasets...
+datasets/raw/*
+
+#from virtual environment...
+venv/
+
+#python cache files...
+__pycache__/
+*.pyc
+
+# vs code
+.vscode/
+
