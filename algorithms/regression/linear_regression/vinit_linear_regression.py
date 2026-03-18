@@ -25,6 +25,13 @@ class VinitLinearRegression:
         X = np.array(X)
 
         return self.slope * X + self.intercept
+    
+    #def vinit_mean_squared_error(y_true, y_pred):
+    #   return np.mean((y_true - y_pred) ** 2)
+
+    ##/// you should import from utils beacuse this is utility function you can still call 
+    # but add self in arguments
+    #Self in object here 
 
 
     
