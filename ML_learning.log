@@ -1,0 +1,25 @@
+## Day 1 — Linear Regression
+
+### What I Built:
+- Linear Regression from scratch using NumPy
+
+### What I Learned:
+- How slope is derived from covariance and variance
+- How intercept is calculated
+- How predictions are made
+- Why predictions are not exact
+- Concept of error and loss (MSE)
+
+### Results:
+- Slope: 0.6
+- Intercept: 2.2
+- Loss: 0.48
+
+### Key Insight:
+Linear regression does not fit every point — it minimizes total error.
+
+### Challenges:
+- Understanding why prediction was not equal to actual
+
+### Fix:
+- Learned that model balances errors across all data points
