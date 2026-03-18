@@ -16,7 +16,7 @@ errors = y - prediction
 #mse = mean_squared_error(y, prediction)
 
 #print("slope: " ,model.slope)#0.6
-#print("intercept: ", model.intercept)#2.2
+print("intercept: ", model.intercept)#2.2
 print("predictions: ", prediction)##[2.8 3.4 4.  4.6 5.2]
 print("Errors: ", errors)
 print("Loss: " , vinit_mean_squared_error(y, prediction))#calculate MSE
