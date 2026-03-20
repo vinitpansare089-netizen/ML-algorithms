@@ -23,4 +23,3 @@ for i in range(epochs):
     if i % 100 == 0:
         loss = np.mean((y - y_pred) ** 2)
         print(f"Epoch {i}: Loss={loss}, m={m}, b={b}")
-        
